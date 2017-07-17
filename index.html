@@ -18,7 +18,7 @@
 </script>
 
 <!-- Place this tag where you want both of the search box and the search results to render -->
- <gcse:search gl="us" sort_by="date"></gcse:search>
+ <gcse:search gl="af" sort_by="date"></gcse:search>
 <script>
 
 // Note: This example requires that you consent to location sharing when
@@ -54,7 +54,8 @@ function initMap() {
   }
 }
 
-function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+function handleLocationError(browserHasGeolocation, infoWindow, pos)
+{
   infoWindow.setPosition(pos);
   infoWindow.setContent(browserHasGeolocation ?
                         'Error: The Geolocation service failed.' :
@@ -66,8 +67,9 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSIrBoMYVeYJmKMV2TnuSgJSjVmqC02C0&callback=initMap">
 </script>
 <style media="screen">
-body {
-background-color: blue;
+body
+{
+background-color: orange;
 }
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
@@ -75,12 +77,12 @@ background-color: blue;
   height: 100%;
 }
 /* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+html, body
+{
+  height: 90%;
+  margin: 25;
+  padding: 20;
 }
 </style>
   </body>
 </html>
-
